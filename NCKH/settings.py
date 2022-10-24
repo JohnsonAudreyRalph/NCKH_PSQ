@@ -28,7 +28,7 @@ SECRET_KEY = 'cyxw*7&e=yrn#i-qmu&tf63*)njhxv-z#wu8vi_l6v9=z5c&&l'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1', 'nckh-psq.herokuapp.com']
 
 
 # Application definition
@@ -53,6 +53,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'NCKH.urls'
@@ -127,3 +128,4 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [STATIC_DIR]
 # print(STATIC_DIR)
 django_heroku.settings(locals())
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')

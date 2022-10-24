@@ -1,0 +1,70 @@
+body
+{
+    text-align: center;
+}
+
+.IMG_Area
+{
+    height: 90px;
+    width: 160px;
+}
+
+.button
+{
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: optional;
+    padding: 0.5em 2em .55em;
+    font: 30px/100% Arial, Helvetica, sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    border-radius: 2em;
+}
+
+.button:hover
+{
+    text-decoration: none;
+}
+
+.button:active
+{
+    position: relative;
+    top: 2px;
+}
+
+.red
+{
+    color: #faddde;
+    border: solid 1px #980c10;
+    background: #d81b21;
+}
+
+.red:hover
+{
+    background: #b61318;
+}
+
+.red:active
+{
+    color: #de898c;
+}
+
+.blue
+{
+    color: #d9eef7;
+    border: solid 1px #0076a3;
+    background: #0095cd;
+}
+
+.blue:hover
+{
+    background: #007ead;
+}
+
+.blue:active
+{
+    color: #80bed6;
+}
