@@ -1,0 +1,32 @@
+{% extends 'home.html' %}
+{% block Constrol_WEB_Area_2 %}
+    <form action="" method="POST">
+        {% csrf_token %}
+    </form>
+    <h1 class = "text-center alert alert-danger">Đề tài NCKH:...</h1>
+    <p>
+        <img id = "Area_2_ID_01" class = "IMG_Area">
+        <button data-sid-Arae-2 = "1" class = "button blue btn-on">Bật thiết bị 1</button>
+        <button data-sid-Arae-2 = "1" class = "button red btn-off">Tắt thiết bị 1</button>
+    </p>
+    <p>
+        <img id = "Area_2_ID_02" class = "IMG_Area">
+        <button data-sid-Arae-2 = "2" class = "button blue btn-on">Bật thiết bị 2</button>
+        <button data-sid-Arae-2 = "2" class = "button red btn-off">Tắt thiết bị 2</button>
+    </p>
+    <p>
+        <img id = "Area_2_ID_03" class = "IMG_Area">
+        <button data-sid-Arae-2 = "3" class = "button blue btn-on">Bật thiết bị 3</button>
+        <button data-sid-Arae-2 = "3" class = "button red btn-off">Tắt thiết bị 3</button>
+    </p>
+    <p>
+        <img id = "Area_2_ID_04" class = "IMG_Area">
+        <button data-sid-Arae-2 = "4" class = "button blue btn-on">Bật thiết bị 4</button>
+        <button data-sid-Arae-2 = "4" class = "button red btn-off">Tắt thiết bị 4</button>
+    </p>
+    <p>
+        <img id = "Area_2_ID_05" class = "IMG_Area">
+        <button data-sid-Arae-2 = "5" class = "button blue btn-on">Bật thiết bị 5</button>
+        <button data-sid-Arae-2 = "5" class = "button red btn-off">Tắt thiết bị 5</button>
+    </p>
+{% endblock Constrol_WEB_Area_2 %}
