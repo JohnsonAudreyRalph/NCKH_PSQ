@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "19fe43e5cba0247d3f3fbb29232a56247918a3669f0cdb18bae8edb7cb1a3ae9"
+            "sha256": "b1660a567b1aab40d94ed0d689b46ba35e38a6d41ac687d9558886267b0fa6e0"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,6 +16,13 @@
         ]
     },
     "default": {
+        "appdata": {
+            "hashes": [
+                "sha256:82372cc03a1fd0eecf19f7f4d73b26240461d41335e7dc362443a12d76c5d953",
+                "sha256:c44a6361852b4616410d6e9973fa5939a4bb3c64a7b6f75d8d3a73ce4b2cf2e4"
+            ],
+            "version": "==2.1.2"
+        },
         "asgiref": {
             "hashes": [
                 "sha256:1d2880b792ae8757289136f1db2b7b99100ce959b2aa57fd69dab783d05afac4",
@@ -23,6 +30,28 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==3.5.2"
+        },
+        "click": {
+            "hashes": [
+                "sha256:353f466495adaeb40b6b5f592f9f91cb22372351c84caeb068132442a4518ef3",
+                "sha256:410e932b050f5eed773c4cda94de75971c89cdb3155a72a0831139a79e5ecb5b"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==8.0.3"
+        },
+        "colorama": {
+            "hashes": [
+                "sha256:854bf444933e37f5824ae7bfc1e98d5bce2ebe4160d46b5edf346a89358e99da",
+                "sha256:e6c6b4334fc50988a639d9b98aa429a0b57da6e17b9a44f0451f930b6967b7a4"
+            ],
+            "markers": "platform_system == 'Windows'",
+            "version": "==0.4.5"
+        },
+        "colored": {
+            "hashes": [
+                "sha256:b7b48b9f40e8a65bbb54813d5d79dd008dc8b8c5638d5bbfd30fc5a82e6def7a"
+            ],
+            "version": "==1.4.3"
         },
         "django": {
             "hashes": [
@@ -46,6 +75,14 @@
             ],
             "markers": "python_version >= '3.5'",
             "version": "==0.4.3"
+        },
+        "to-requirements.txt": {
+            "hashes": [
+                "sha256:c96d2d8cea6aed9f2a4afe1713b3adee2fa35b56b0d1993c5fab0769091b5141",
+                "sha256:dfc3de3a0aa54f3250457603eebb5bab34f3753a262bf3e0e5ab4ffe0c13fd3c"
+            ],
+            "index": "pypi",
+            "version": "==1.3.0"
         }
     },
     "develop": {}

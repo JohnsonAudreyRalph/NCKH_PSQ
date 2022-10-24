@@ -1,4 +1,4 @@
-const IP = "http://192.168.1.105:8000/"
+const IP = "http://127.0.0.1:8000/"
 function GetJSON()
 {
     const ON = "https://banner2.cleanpng.com/20180403/giw/kisspng-green-light-green-light-traffic-light-clip-art-light-circle-5ac441520557b0.7741665015228112180219.jpg"
